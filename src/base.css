@@ -1,0 +1,29 @@
+:root {
+  --site-width: 98rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Maven Pro', Helvetica, Arial;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

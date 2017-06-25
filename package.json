@@ -1,0 +1,48 @@
+{
+  "name": "www.pwa.io",
+  "version": "1.0.0",
+  "description": "Progressive web app with React",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dashboard -- webpack-dev-server",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octavianusb/pwa.git"
+  },
+  "keywords": [
+    "progressive",
+    "web",
+    "app",
+    "react",
+    "webpack",
+    "babel"
+  ],
+  "author": "Octavian Berghea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octavianusb/pwa/issues"
+  },
+  "homepage": "https://github.com/octavianusb/pwa#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "jest": "^20.0.4",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "standard": "^10.0.2",
+    "standard-loader": "^6.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0",
+    "webpack-dashboard": "^0.4.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
