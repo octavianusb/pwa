@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component should render as expected 1`] = `
+<div>
+  <h2
+    className="title"
+  >
+    My post
+  </h2>
+  <p
+    className="content"
+  />
+</div>
+`;
+
+exports[`Post component should render with title type link 1`] = `
+<div>
+  <h2
+    className="title"
+  >
+    <Link
+      replace={false}
+      to="/post/undefined"
+    >
+      My post
+    </Link>
+  </h2>
+  <p
+    className="content"
+  />
+</div>
+`;

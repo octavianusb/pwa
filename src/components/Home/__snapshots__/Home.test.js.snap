@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render posts as expected 1`] = `
+<div>
+  <Post
+    content="sit amet"
+    excerpt="dolor"
+    slug="ipsum"
+    title="lorem"
+    titleLink={true}
+  />
+  <Post
+    content="lorem"
+    excerpt="ipsum"
+    slug="dolor"
+    title="sit amet"
+    titleLink={true}
+  />
+</div>
+`;
+
+exports[`Home component shouldn't render posts 1`] = `
+<div>
+  <p>
+    Awaiting posts
+  </p>
+</div>
+`;
