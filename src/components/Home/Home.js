@@ -1,13 +1,15 @@
 import React from 'react'
-import posts from '../../blog-posts.json'
 
 // COMPONENTS
 import Post from '../Post/Post'
 
-export default function () {
+export default function ({posts}) {
   return (
     <div>
-      {posts.posts.map(post => <Post {...post} key={post.slug} />)}
+      { posts.length
+        ? posts.map(post => <Post {...post} key={post.slug} titleLink />)
+        : <p>{'Awaiting posts'}</p>
+      }
     </div>
   )
 }
