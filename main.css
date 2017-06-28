@@ -1,0 +1,92 @@
+:root {
+  --site-width: 98rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Maven Pro', Helvetica, Arial;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}.-App-container-3u5nkA- {
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}.-Header-header-1Xm7VI- {
+  background: linear-gradient(to right, #24A3CF, #3650A0);
+}
+
+.-Header-container-1EKFEi- {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.-Header-title-3eRP3G- {
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 0;
+  font-size: 3.5rem;
+}
+
+.-Header-list-3CbsPN- {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.-Header-link-k_Afqo- {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.-Header-link-k_Afqo-:hover, .-Header-link-k_Afqo-:focus {
+  color: #2 4A3CF;
+}.-About-heading-3dpQ7X- {
+  font-size: 3rem;
+}
+
+.-About-bio-oEdEHe- {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: #333;
+}.-Post-title-34jjBA- {
+  font-size: 3rem;
+}
+
+.-Post-title-34jjBA- a {
+  color: #2f89de;
+}
+.-Post-title-34jjBA- a:hover, .-Post-title-34jjBA- a:focus {
+  color: #30699e;
+  transition: color 0.4s ease;
+}
+
+.-Post-content-2B_a90- {
+  font-size: 1.8rem;
+  line-height: 1.7;
+}
